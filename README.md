@@ -1,8 +1,8 @@
-# CV - Aicja Orlik
+# CV - Alicja Orlik
 
 ## Demo:
 
-Welcome on my homepage. You can visit it here: https://aliorl/github.io/CV/
+https://aliorl/github.io/CV/
 
 ## Page preview:
 
@@ -16,5 +16,4 @@ Website created as part of self-study. It presents my CV containing supplementar
 
 - HTML
 - CSS
-- Javascript (ES6 + Features)
 - BEM convention
