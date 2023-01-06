@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.6);
+}

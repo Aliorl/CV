@@ -1,0 +1,146 @@
+.section {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+.section--main {
+    padding: 102px 88px 102px 88px;
+}
+
+.section--aside {
+    width: 370px;
+    background: #4f4f50;
+}
+
+.section__headerSection {
+    color: #000000;
+}
+
+.section__header {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 30px;
+}
+
+.section__header--main {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+}
+
+.section__highlight {
+    color: #fb6d3a;
+}
+
+.section__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 20px;
+}
+
+.section__title--main {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.section__title--aside {
+    color: #ffffff;
+}
+
+.section__paragraph {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #a8a8a8;
+    margin-bottom: 20px;
+}
+
+.section__paragraph--main {
+    width: 400px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.section__list {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.section__list--unordered {
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.section__list--aside {
+    color: #fb6d3a;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 0;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.section__listItem {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.section__listItem--aside {
+    color: #ffffff;
+}
+
+.section__links--aside {
+    color: #ffffff;
+}
+
+.section__link {
+    font-weight: 400;
+    color: #fb6d3a;
+    text-decoration: none;
+}
+
+.section__link:hover {
+    color: #595959;
+}
+
+.section__link:active {
+    color: #3a64fb;
+}
+
+.section__link--aside {
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #fb6d3a;
+}
+
+.section__link--aside:hover {
+    color: #fbd13a;
+}
+
+.section__link--aside:active {
+    color: #3a64fb;
+}
+
+.section__image {
+    margin-top: 25px;
+    margin-left: 32px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.6);
+}
+
+.section__block {
+    margin-top: 51px;
+    margin-left: 40px;
+}
