@@ -3,6 +3,8 @@
     font-size: 14px;
     line-height: 24px;
     margin-bottom: 40px;
+    min-width: 600px;
+    overflow-x: auto;
 }
 
 .section--main {
@@ -10,8 +12,9 @@
 }
 
 .section--aside {
-    width: 370px;
+    max-width: 370px;
     background: #4f4f50;
+    overflow-x: auto;
 }
 
 .section__headerSection {
