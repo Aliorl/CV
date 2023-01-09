@@ -2,7 +2,7 @@
 
 ## Demo:
 
-https://aliorl/github.io/CV/
+https://aliorl.github.io/CV/
 
 ## Page preview:
 
