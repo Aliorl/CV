@@ -6,7 +6,7 @@ https://aliorl.github.io/CV/
 
 ## Page preview:
 
-![website gif](https://media.giphy.com/media/CLdnhQ2nMU1n3d76Ad/giphy.gif)
+![website gif](https://media.giphy.com/media/awmaM7jPhZwwz0Zyph/giphy.gif)
 
 ## Description:
 
