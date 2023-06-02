@@ -14,78 +14,154 @@
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/container.css" rel="stylesheet" />
     <link href="css/section.css" rel="stylesheet" />
+    <link href="css/table.css" rel="stylesheet" />
 </head>
 
 <body class="body">
     <div class="container">
-        <main class="section section--main">
-            <div class="section__headerSection">
-                <h2 class="section__title--main">Front-End Developer</h2>
+        <aside class="container__aside">
+            <img class="section__image" src="images/Alicja.jpg" width="370" alt="Alicja Orlik" />
+            <div class="section__block">
+                <h2 class="section__title--aside">Contacts</h2>
 
-                <h1 class="section__header--main">Alicja Orlik</h1>
-
-                <p class="section__paragraph--main">
-                    Freelance and hobby web development<br />
-                    PHP/Javascript programming
+                <p class="section__links--aside">
+                    <span class="bold">C:</span>
+                    <a class="section__link--aside" href="tel:+48606429749">+48 606 429 749</a>
+                    <br />
+                    <span class="bold">E:</span>
+                    <a class="section__link--aside" href="mailto:alicja.k.orlik@gmail.com">alicja.k.orlik@gmail.com</a>
                 </p>
             </div>
+
+            <div class="section__block">
+                <h2 class="section__title--aside">Tech skills</h2>
+                <ul class="section__list--aside">
+                    <li><span class="section__listItem--aside">HTML</span></li>
+                    <li><span class="section__listItem--aside">CSS</span></li>
+                    <li><span class="section__listItem--aside">BEM</span></li>
+                    <li><span class="section__listItem--aside">GIT</span></li>
+                    <li><span class="section__listItem--aside">PHP</span></li>
+                    <li><span class="section__listItem--aside">JavaScript</span></li>
+                    <li><span class="section__listItem--aside">SQL/MySQL</span></li>
+                </ul>
+            </div>
+            <div class="section__block">
+                <h2 class="section__title--aside">Soft skills</h2>
+                <ul class="section__list--aside">
+                    <li><span class="section__listItem--aside">Scrum</span></li>
+                    <li><span class="section__listItem--aside">Teamwork</span></li>
+                    <li><span class="section__listItem--aside">Management skills</span></li>
+                </ul>
+            </div>
+            <div class="section__block">
+                <h2 class="section__title--aside">Foreign languages</h2>
+                <ul class="section__list--aside">
+                    <li><span class="section__listItem--aside">German C1</span></li>
+                    <li><span class="section__listItem--aside">English B2</span></li>
+                </ul>
+            </div>
+        </aside>
+        <div class="container__header">
+            <h2 class="section__title--main">Front-End Developer</h2>
+
+            <h1 class="section__header--main">Alicja Orlik</h1>
+
+            <p class="section__paragraph--main">
+                Freelance and hobby web development<br />
+                PHP/Javascript programming
+            </p>
+        </div>
+        <main class="container__main">
             <div class="section">
                 <h2 class="section__title">Projects</h2>
-
-                <ol class="section__list">
-                    <li>
-                        <a class="section__link" href="https://aliorl.github.io/portfolio/">Website Portfolio</a>
-                        <span class="section__listItem">.................... </span>
-                        [<span class="section__listItem">JS, HMTL/CSS </span>]
-                    </li>
-                    <li>
-                        <a class="section__link" href="https://aliorl.github.io/chatbot/">Chatbot</a>
-                        <span class="section__listItem">................................... </span>
-                        [<span class="section__listItem">JS, HMTL/CSS </span>]
-                    </li>
-                    <li>
-                        <a class="section__link" href="https://aliorl.github.io/currency-converter/">Currency
-                            Converter</a>
-                        <span class="section__listItem">................ </span>
-                        [<span class="section__listItem">JS, HMTL/CSS </span>]
-                    </li>
-                    <li>
-                        <a class="section__link" href="https://aliorl.github.io/ToDoList/">To Do List App</a>
-                        <span class="section__listItem">........................ </span>
-                        [<span class="section__listItem">JS, HMTL/CSS </span>]
-                    </li>
-                    <li>
-                        <a class="section__link" href="https://melodious-syrniki-62f54f.netlify.app/">Shopping List
-                            App</a>
-                        <span class="section__listItem">.................. </span>
-                        [<span class="section__listItem">JS (Vue.js), HMTL/CSS </span>]
-                    </li>
-                    <li>
-                        <a class="section__link" href="http://slodkiezycie.eu/kalkulatorbolusa/">Bolus Calculator</a>
-                        <span class="section__listItem">..................... </span>
-                        [<span class="section__listItem">PHP, JS, HMTL/CSS </span>]
-                    </li>
-                    <li>
-                        <a class="section__link" href="http://ozbcjzwlpc.cfolks.pl/">Student's Diary</a>
-                        <span class="section__listItem">....................... </span>
-                        [<span class="section__listItem">PHP, JS, HMTL/CSS </span>]
-                    </li>
-                    <li>
-                        <a class="section__link" href="https://aliorl.github.io/homepage/">Service Website</a>
-                        <span class="section__listItem">..................... </span>
-                        [<span class="section__listItem">JS, HMTL/CSS </span>]
-                    </li>
-                    <li>
-                        <a class="section__link" href="https://faniwina.pl/">Blog faniwina.pl/</a>
-                        <span class="section__listItem">.....................</span>
-                        [<span class="section__listItem">CMS (Wordpress) </span>]
-                    </li>
-                    <li>
-                        <a class="section__link" href="http://slodkiezycie.eu/">Blog slodkiezycie.eu/</a>
-                        <span class="section__listItem">................</span>
-                        [<span class="section__listItem">CMS (Wordpress) </span>]
-                    </li>
-                </ol>
+                <table class="table">
+                    <tr>
+                        <th class="table__cell table__cell--header" scope="col"></th>
+                        <th class="table__cell table__cell--header" scope="col">Link to the website</th>
+                        <th class="table__cell table__cell--header" scope="col">Technologies</th>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__cell--header" scope="row">1.</th>
+                        <td class="table__cell table__cell--row"><a class="section__link"
+                                href="https://aliorl.github.io/portfolio/">Website Portfolio</a></td>
+                        <td class="table__cell table__cell--row"><span class="section__listItem">
+                            </span>
+                            [<span class="section__listItem">JS, HMTL/CSS </span>]</td>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__cell--header" scope="row">2.</th>
+                        <td class="table__cell table__cell--row"><a class="section__link"
+                                href="https://aliorl.github.io/chatbot/">Chatbot</a></td>
+                        <td class="table__cell table__cell--row"><span class="section__listItem"></span>
+                            [<span class="section__listItem">JS, HMTL/CSS </span>]</td>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__cell--header" scope="row">3.</th>
+                        <td class="table__cell table__cell--row"><a class="section__link"
+                                href="https://aliorl.github.io/currency-converter/">Currency
+                                Converter</a></td>
+                        <td class="table__cell table__cell--row"><span class="section__listItem"></span>
+                            [<span class="section__listItem">JS, HMTL/CSS </span>]</td>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__cell--header" scope="row">3.</th>
+                        <td class="table__cell table__cell--row">
+                            <a class="section__link" href="https://aliorl.github.io/ToDoList/">To Do List App</a>
+                        </td>
+                        <td class="table__cell table__cell--row"><span class="section__listItem"></span>
+                            [<span class="section__listItem">JS, HMTL/CSS </span>]</td>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__cell--header" scope="row">3.</th>
+                        <td class="table__cell table__cell--row">
+                            <a class="section__link" href="https://melodious-syrniki-62f54f.netlify.app/">Shopping List
+                                App</a>
+                        </td>
+                        <td class="table__cell table__cell--row"><span class="section__listItem"></span>
+                            [<span class="section__listItem">JS, HMTL/CSS </span>]</td>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__cell--header" scope="row">3.</th>
+                        <td class="table__cell table__cell--row">
+                            <a class="section__link" href="http://slodkiezycie.eu/kalkulatorbolusa/">Bolus
+                                Calculator</a>
+                        </td>
+                        <td class="table__cell table__cell--row"><span class="section__listItem"></span>
+                            [<span class="section__listItem">JS, HMTL/CSS </span>]</td>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__cell--header" scope="row">3.</th>
+                        <td class="table__cell table__cell--row">
+                            <a class="section__link" href="http://ozbcjzwlpc.cfolks.pl/">Student's Diary</a>
+                        </td>
+                        <td class="table__cell table__cell--row"><span class="section__listItem"></span>
+                            [<span class="section__listItem">PHP, JS, HMTL/CSS</span>]</td>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__cell--header" scope="row">3.</th>
+                        <td class="table__cell table__cell--row">
+                            <a class="section__link" href="https://aliorl.github.io/homepage/">Service Website</a>
+                        </td>
+                        <td class="table__cell table__cell--row"><span class="section__listItem"></span>
+                            [<span class="section__listItem">JS, HMTL/CSS </span>]</td>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__cell--header" scope="row">3.</th>
+                        <td class="table__cell table__cell--row">
+                            <a class="section__link" href="https://faniwina.pl/">Blog faniwina.pl/</a>
+                        </td>
+                        <td class="table__cell table__cell--row"><span class="section__listItem"></span>
+                            [<span class="section__listItem">CMS (Wordpress)</span>]</td>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__cell--header" scope="row">3.</th>
+                        <td class="table__cell table__cell--row">
+                            <a class="section__link" href="http://slodkiezycie.eu/">Blog slodkiezycie.eu/</a>
+                        </td>
+                        <td class="table__cell table__cell--row"><span class="section__listItem"></span>
+                            [<span class="section__listItem">JCMS (Wordpress)</span>]</td>
+                    </tr>
+                </table>
             </div>
             <div class="section">
                 <h2 class="section__title">Work Experience</h2>
@@ -200,48 +276,6 @@
                 <p class="section__paragraph">October 2003 - August 2008 | Poland</p>
             </div>
         </main>
-        <aside class="section--aside">
-            <img class="section__image" src="images/Alicja.jpg" width="370" alt="Alicja Orlik" />
-            <div class="section__block">
-                <h2 class="section__title--aside">Contacts</h2>
-
-                <p class="section__links--aside">
-                    <span class="bold">C:</span>
-                    <a class="section__link--aside" href="tel:+48606429749">+48 606 429 749</a>
-                    <br />
-                    <span class="bold">E:</span>
-                    <a class="section__link--aside" href="mailto:alicja.k.orlik@gmail.com">alicja.k.orlik@gmail.com</a>
-                </p>
-            </div>
-
-            <div class="section__block">
-                <h2 class="section__title--aside">Tech skills</h2>
-                <ul class="section__list--aside">
-                    <li><span class="section__listItem--aside">HTML</span></li>
-                    <li><span class="section__listItem--aside">CSS</span></li>
-                    <li><span class="section__listItem--aside">BEM</span></li>
-                    <li><span class="section__listItem--aside">GIT</span></li>
-                    <li><span class="section__listItem--aside">PHP</span></li>
-                    <li><span class="section__listItem--aside">JacaScript</span></li>
-                    <li><span class="section__listItem--aside">SQL/MySQL</span></li>
-                </ul>
-            </div>
-            <div class="section__block">
-                <h2 class="section__title--aside">Soft skills</h2>
-                <ul class="section__list--aside">
-                    <li><span class="section__listItem--aside">Scrum</span></li>
-                    <li><span class="section__listItem--aside">Teamwork</span></li>
-                    <li><span class="section__listItem--aside">Management skills</span></li>
-                </ul>
-            </div>
-            <div class="section__block">
-                <h2 class="section__title--aside">Foreign languages</h2>
-                <ul class="section__list--aside">
-                    <li><span class="section__listItem--aside">German C1</span></li>
-                    <li><span class="section__listItem--aside">English B2</span></li>
-                </ul>
-            </div>
-        </aside>
     </div>
 </body>
 
